@@ -1,0 +1,325 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
+.title::before {
+  content: "\f083";
+  font-family: 'Font Awesome 5 Free';
+}
+
+.header-left h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.header-menu {
+  display: flex;
+  padding: 110px 0 0 0;
+}
+
+.header-right {
+  margin-left: auto;
+  padding: 0 10px 0 0;
+}
+
+.header-right .fab {
+  padding: 0 10px;
+  opacity: 0.7;
+  color: #000;
+}
+
+.header-right .fab:hover {
+  opacity: 1;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+.nav-list li {
+  font-size: 14px;
+  padding: 0 24px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+.nav-list li a {
+  color:#000;
+  text-decoration: none;
+}
+
+.nav-list li:hover {
+text-decoration: underline;
+}
+.mainimg {
+  width: 100%;
+}
+
+.myphoto img {
+  width: 350px;
+}
+
+.myphoto {
+  padding-left: 30px;
+}
+
+
+.main-logo {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 100;
+  padding: 85px 0 60px 0;
+}
+
+.contents {
+  display: flex;
+}
+
+.about-text {
+  font-size: 20px;
+  padding-left: 60px;
+  padding-top: 40px
+  
+}
+
+.about-text .fab {
+  padding-right: 10px;
+  line-height: 30px;
+}
+
+.main-text {
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+.name {
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+}
+
+.about-text a {
+  opacity: 0.6;
+  text-decoration:none; 
+  color: #000;
+}
+
+.about-text a:hover {
+  opacity:1;
+  color: purple;
+  text-decoration: underline;
+}
+
+.skill-content {
+  width: 50%;
+  text-align: center;
+}
+
+.skill-text {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.skill-content h1{
+  font-size:22px;
+}
+
+.skill-content i {
+ padding: 45px 0;
+}
+
+.sub {
+  opacity: 0.4; 
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.works-wrapper p {
+  text-align: center;
+  font-size: 20px;
+}
+.work-contents img {
+ width: 45%;
+ margin: 2% 2%;
+ border:solid 1px rgb(201, 197, 197)
+}
+
+.work-contents img:hover {
+  opacity: 0.5 ;
+}
+
+.work-contents {
+  text-align: center;
+}
+
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+form dt {
+  float: left;
+  padding: 4px 0 2px 0;
+}
+
+form dd {
+  padding-bottom: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width:100%;
+  margin: 10Px 0 7px 0;
+  padding:4px 8px;
+}
+
+textarea {
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.submitBtm {
+  text-align: center;
+}
+ button[type=submit] {
+  color: #8e8e8e;;
+padding: 10px 60px;
+ }
+
+
+footer .nav-list {
+  justify-content: flex-start;
+  padding-bottom: 80px;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+footer .copyrigth {
+  font-size: 75%;
+  padding-bottom:5px;
+}
